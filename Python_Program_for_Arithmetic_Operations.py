@@ -17,12 +17,9 @@ else:
     print("Warning: Division by zero is not allowed!") 
 # Display results 
 print("\n--- Arithmetic Operations ---") 
-print("Addition       
-:", sum_result) 
+print("Addition       :", sum_result) 
 print("Subtraction    :", diff_result) 
 print("Multiplication :", prod_result) 
 if div_result is not None: 
-print("Division       
-print("Modulus        
-:", mod_result) 
-else:
+    print("Division       :", div_result) 
+    print("Modulus        :", mod_result)
